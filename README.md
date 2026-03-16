@@ -32,7 +32,7 @@
 
 ```bash
 # 克隆项目
-git clone <你的仓库地址>
+git clone <仓库地址>
 cd NovelWriter
 
 # 安装 Python 依赖
@@ -46,6 +46,19 @@ bash start_api.sh --dev
 ```
 
 启动后访问 http://localhost:7860
+
+### 本地通过UV启动(windows)
+```bash
+# 克隆项目
+git clone <仓库地址>
+cd NovelWriter
+# 确保你已经安装了uv
+powershell -c "irm https://astral.sh/uv/install.ps1 | iex"
+# 生产模式启动
+uv run start-api.bat
+```
+
+启动后访问 http://your-server-ip:7860
 
 ### Docker 部署
 
@@ -61,6 +74,8 @@ docker compose down
 ```
 
 启动后访问 http://your-server-ip:7860
+
+
 
 #### 手动 Docker 构建
 
