@@ -10,3 +10,4 @@ output/
 vectorstore/
 .claude/
 .DS_Store
+/.venv
