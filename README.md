@@ -24,7 +24,7 @@
 
 ### 环境要求
 
-- Python 3.10+
+- Python 3.12
 - Node.js 18+（仅开发模式需要）
 - 有效的 LLM API Key（DeepSeek / OpenAI / Gemini / Ollama 等兼容 OpenAI 格式的服务）
 
