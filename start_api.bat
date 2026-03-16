@@ -52,5 +52,5 @@ if not exist "frontend\dist" (
     cd ..
 )
 echo [START] Starting Backend Server...
-uv run uvicorn api_server:app --host 0.0.0.0 --port 7860
+uv run python -m uvicorn api_server:app --host 0.0.0.0 --port 7860
 pause
